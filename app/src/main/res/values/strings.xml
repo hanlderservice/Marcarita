@@ -1,4 +1,9 @@
 <resources>
     <!--玛加丽塔-->
     <string name="app_name">Marcarita</string>
+    <string name="navigation_homepage">首页</string>
+    <string name="navigation_mine">我的</string>
+    <string name="navigation_message">消息</string>
+    <string name="navigation_classify">分类</string>
+    <string name="navigation_recommend">推荐</string>
 </resources>

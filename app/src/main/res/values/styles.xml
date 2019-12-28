@@ -7,5 +7,33 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    <!-- Base application theme. -->
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.Luncher" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!--设置为true这状态栏会变成深灰色-->
+        <item name="android:windowTranslucentStatus">false</item>
+        <!--设置为只有在上面的设置为true时 此true 下面会显示一个系统状态栏同上面-->
+        <item name="android:windowTranslucentNavigation">false</item>
+    </style>
+
+    <style name="NavigationBtnStyle">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingBottom">4dip</item>
+        <item name="android:paddingTop">5dip</item>
+        <item name="android:textSize">@dimen/text_size_12</item>
+    </style>
+
 
 </resources>
